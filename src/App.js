@@ -1,16 +1,9 @@
-import React, {Component} from 'react';
-import Counter from './Counter';
-import './App.css';
+import { MyStopwatch } from './MyStopwatch'
 
-class App extends Component {
-  render(){
-    return(
-      <div className='App'>
-        <h1>Count App</h1>
-        <Counter />
-      </div>
-    )
-  }
+export default function App() {
+  return (
+    <div>
+      <MyStopwatch />
+    </div>
+  );
 }
-
-export default App;
